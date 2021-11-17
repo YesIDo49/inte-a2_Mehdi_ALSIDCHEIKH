@@ -41,14 +41,21 @@ a {
 
 header {
   background-image: url("./img/header.png");
+  background-size: 100%;
   width: 100%;
+  height: 34rem;
+}
+header > div {
+  background-color: rgba(14, 14, 14, 0.8);
   height: 34rem;
 }
 header > div > .header__navbar {
   display: flex;
 }
 header > div > .header__navbar > .header__logo {
-  left: 10%;
+  padding: 1rem;
+  width: 105px;
+  height: 55px;
 }
 header > div > .header__navbar > ul {
   display: flex;
@@ -56,15 +63,31 @@ header > div > .header__navbar > ul {
   margin: auto;
 }
 header > div > .header__navbar > ul > .header__links {
-  color: white;
+  color: pink;
   padding: 1rem;
 }
 header > div > .header__navbar > .header__socials {
   right: 10%;
   color: white;
+  padding: 1rem;
 }
 header > div > .header__content {
+  color: white;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.button {
+  display: flex;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
   margin: auto;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
